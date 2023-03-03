@@ -1,13 +1,17 @@
 import React from 'react';
 import './App.css';
+import { Carousel } from './layouts/HomePage/Carousel';
+import { ExploreToBooks } from './layouts/HomePage/ExploreToBooks';
+import { Navbar } from './layouts/NavbarAndFooter/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>hello</h1>
-      </header>
+    <div>
+      <Navbar />
+      <ExploreToBooks />  
+      <Carousel />    
     </div>
+    
   );
 }
 
