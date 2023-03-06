@@ -13,3 +13,24 @@ background-color: #000000 ;
     justify-content: center !important;
     align-items: center !important;
   }
+
+.col-image-left {
+    background-image: url("./Images/PublicImages/image-2.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 25em !important;
+}
+
+.col-image-right {
+    background-image: url("./Images/PublicImages/image-3.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 25em !important;
+}
+
+.lost-image {
+    background-image: url("./Images/PublicImages/image-4.jpg");
+    background-size:cover;
+    background-position: center center;
+    height: 25em !important;
+}
