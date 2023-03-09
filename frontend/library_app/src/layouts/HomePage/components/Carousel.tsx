@@ -1,6 +1,6 @@
 import { ReturnBook } from "./ReturnBook";
 import { useEffect, useState } from "react";
-import BookModel from "../../../models/BookModels";
+import BookModel from "../../../models/BookModel";
 import { SpinnerLoading } from "../../Utils/SpinnerLoading";
 
 export const Carousel = () => {
@@ -70,6 +70,9 @@ export const Carousel = () => {
                             {books.slice(0, 3).map(book => (
                                 <ReturnBook book={book} key={book.id} />
                             ))}
+                            {/* {books.slice(0, 3).map(book => {
+                                (<ReturnBook book={book} key={book.id} />)
+                            })} */}
                         </div>
                     </div>
                     <div className='carousel-item'>
