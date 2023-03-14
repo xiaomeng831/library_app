@@ -40,7 +40,7 @@ export const Carousel = () => {
             setIsLoading(false);
             setHttpError(error.message);
         })
-    }, [])
+    }, []);
 
     if (isLoading) {
         return (
