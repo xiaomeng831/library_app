@@ -27,7 +27,7 @@ export const CheckoutAndReviewBox: React.FC<{ book: BookModel | undefined, mobil
                         </p>
                         <p className="col-6 lead">
                             <b>{props.book?.copiesAvailable} </b>
-                            availabel
+                            available
                         </p>
                     </div>
                 </div>
