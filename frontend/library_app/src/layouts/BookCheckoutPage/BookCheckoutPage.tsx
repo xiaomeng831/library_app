@@ -1,5 +1,4 @@
 import { useOktaAuth } from "@okta/okta-react";
-import { error } from "console";
 import { useEffect, useState } from "react";
 import BookModel from "../../models/BookModel";
 import ReviewRequestModel from "../../models/ReveiwRequestModel";
@@ -12,6 +11,7 @@ import { LatestReviews } from "./LatestReviews";
 export const BookCheckoutPage = () => {
 
     const { authState } = useOktaAuth();
+    console.log("123",authState)
 
     const [book, setBook] = useState<BookModel>();
     const [isLoading, setIsLoading] = useState(true);
